@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".kitapSil_Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerInParent="true">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kitap Sil"
+            android:textSize="25sp"
+            android:layout_gravity="center"></TextView>
+
+        <EditText
+            android:id="@+id/sil_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Kitap Id"></EditText>
+
+        <Button
+            android:id="@+id/kitap_sil_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kitap Sil"
+            android:layout_gravity="center"></Button>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
